@@ -1,0 +1,23 @@
+body{
+    background-image:radial-gradient(circle,rgb(221, 127, 221),plum,lightpink);
+}
+
+h1{
+    color:purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset;
+}
+.video{
+    width: 500px;
+    height: 400px;
+}
+
+.content{
+    width: 550px;
+    height: 350px;
+}
+
+.exercicio{
+    width: 440px;
+    height: 340px;
+}

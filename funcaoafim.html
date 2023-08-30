@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Afim</title>
+    <link href="./css/style2.css" rel="stylesheet">
+</head>
+<body>
+    <center><h1>Função Afim-Interseções e Problemas</h1></center>
+
+    <h2>Construção de Gráficos</h2>
+    <p>Para contruir os gráficos de uma função afim aprendemos de duas formas, analisando o corte no eixo X e no eixo Y, outra forma é atribuindo valores.</p>
+    <p>No fundamental eu aprendi atribuindo valores, por isso achei mais fácil continuar resolvendo desta forma por já estar familiarizada com o método.</p>
+     <br>
+    <h3>Como contruir um gráfico aplicando valores?</h3>
+    <p>Basicamente elabora-se um tipo de tabela onde o eixo X será os valores atribuídos e o eixo Y o resultado da função, veja uma representação:</p>
+    <h4>Função f(x)=-3x+2</h4>
+    <table border="1">
+        <thead>
+         <tr>  
+        <td>X</td>
+        <td>Y</td>
+         </tr>
+
+         <tr>
+            <td>-2</td>
+            <td>6+2=8</td>
+         </tr>
+
+         <tr>
+            <td>-1</td>
+            <td>3+2=5</td>
+         </tr>
+
+         <tr>
+            <td>0</td>
+            <td>2</td>
+         </tr>
+
+         <tr>
+            <td>1</td>
+            <td>-3+2=5</td>
+         </tr>
+
+         <tr>
+            <td>2</td>
+            <td>-6+2=-4</td>
+         </tr>
+        </thead>   
+    </table>
+    
+    <p>Veja abaixo como essa reta ficou, eu desenhei ela no caderno para ter certeza e depois analisei no geogebra.</p>
+    <img  id="img" src="./imagem/geogebra-export.png">
+    <p>Esta é uma reta simples, a seguir veremos interseções.</p>
+
+    <center><h1>Interseções de retas</h1></center>
+    <h3>O que são as interseções?</h3>
+    <p>As interseções são duas retas que se encontram em um determinado ponto, para isso temos duas funções,obviamente para termos duas retas.</p>
+    <p>Podemos resolver as interseções com sistemas, irei fazer um exemplo a seguir.</p>
+
+    <h3>Temos duas funções neste exercício:</h3>
+     <h4>f(x)=2x-1</h4>
+     <h4>g(x)=x+3</h4>
+
+    <p>Para resolver essas funções e encontrar a interseção primeiramente o f(x) passa a ser o nosso Y, assim as funções ficam:</p>
+     <h4>y=2x-1</h4>
+     <h4>y=x+3</h4>
+
+    <p>Agora que elas estão como Y precisamos encontrar o nosso X, para isso, transformamos as duas funções em uma equação de 1° grau 
+    e assim obteremos o resultado de X.</p>
+     <h4>2x-1=x+3</h4>
+     <h4>2x-x=3+1</h4>
+     <h4>x=4</h4>
+
+    <p>Depois precisamos encontrar o nosso Y, temos a liberdade de escolher qualquer uma das funções para encontrar o Y, já que é só substituir o valor de X em seu lugar na função.
+    Mas até chegar nesse resultado podemos atribuir valores e fazer a tabela, igual mostrei acima, depois que percebemos no esboço o encontro podemos simplesmente atribuir os pontos de interseção.</p>
+     <h4>y=x+3</h4>
+     <h4>y=4+3</h4>
+     <h4>y=7</h4> 
+
+    <h2>Observe o gráfico dessas funções pelo esboço que fiz no geogebra:</h2>
+    <h3>Ponto de interseção (4,7)</h3>
+    <img id="img" src="./imagem/geogebra-export.png">
+
+    <h3 id="titulo">Importatente:</h3> 
+    <p>Essas retas tem como característica apenas um ponto de encontro!</p>
+
+    <center><h1>Função Linear</h1></center>
+
+    <h2>O que são funções lineares?</h2>
+    <p>A função linear é aquela em que temos b=0 em alguns casos, muitos problemas de proporcionalidade utilizam a função f(x)=ax+b, que é a mais usada na função linear.</p>
+    
+    <h4>Exemplo:</h4>
+     <p>Sabe-se que o preço do quilograma da costela bovina está R$40,99.</p>
+
+     <p>a) Estabeleça a função matemática que descreva a relação entre o quilogramacomprado e o preço pago por um consumidor.</p>
+      <h4>P(q)=40,99.q</h4>
+
+     <p>b) Quanto foi pago na compra de 2,5 kg dessa carne?</p>
+      <h4>2,5 kg=q</h4>
+      <h4>P=40,99.2,5</h4>   
+      <h4>P=R$104,48</h4>
+
+     <p>c) Se foi pago R$ 204,95, quantos quilogramas foram comprados?</p>
+      <h4>204,95=40,99.q</h4>
+      <h4>q=204,95/40,99</h4>  
+      <h4>q=5kg</h4>
+
+      <center><h1>Gráfico de Função Linear</h1></center>
+      <p>Os gráficos das lineares tem característica de serem descrescentes ou crescentes, e sempre passaram pela origem que é (0,0).</p>
+      <p>O coeficiente A indica a inclinação da reta, quanto maior o valor do A maior será a inclinação das retas e enquanto menor o seu valor menor a inclinação das retas.</p>
+      <p>Se A for positivo a reta será CRESCENTE, se A for negativo a reta será DECRESCENTE.</p>
+
+      <h4>Veja um exemplo:</h4>
+      <p>Exemplo 1: f(x) = 2x</p>
+
+      <p>Sua reta será CRESCENTE, pois o valor do A é positivo.</p>
+      <img id="img" src="./imagem/geogebralinear-export.png">
+
+      <p>Exemplo 2: f(x) = -x/2</p>
+
+      <p>Sua reta será DECRESCENTE, pois o valor do A é negativo.</p>
+      <img id="img" src="./imagem/geogebralinear2-export.png">
+
+      <p>Em resumo, as linhas dos gráficos lineares ou afins são retas que cruzam o eixo y no ponto onde x é igual a zero. Elas são importantes para diversos campos da matemática e ciência mostrando uma modelagem linear.</p>
+    
+    <h4><a href="../trabalho1/index.html">Voltar para o início</a></h4>
+    <h4><a href="./index.html">Voltar para a página anterior</a></h4>
+</body>
+</html>

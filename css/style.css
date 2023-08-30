@@ -1,0 +1,13 @@
+body{
+    background-image:radial-gradient(circle,rgb(221, 127, 221),plum,lightpink);
+}
+
+.conteudo{
+    color:purple;
+    font-size: 20px;
+}
+
+h3{
+  color:purple;
+  background-color: plum;
+}
