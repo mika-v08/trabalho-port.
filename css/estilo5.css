@@ -1,0 +1,8 @@
+body{
+    background-image: radial-gradient(circle,plum,lightpink);
+}
+
+h1{
+    font-style: unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,58 @@
+body{
+    background-image: radial-gradient(circle,plum,lightpink);
+}
+
+h1{
+    font-style: unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#img{
+    width: 450px;
+    height: 450px;
+}
+
+#figura{
+    width: 600px;
+    height: 500px;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+}
+
+.imagem{
+    width: 400px;
+    height: 400px;
+}
+
+#fig{
+    width: 600px;
+    height: 600px;
+}
+
+#imgs{
+    width: 250px;
+    height:250px;
+}
+
+#important{
+    width: 670px;
+    height: 350px;
+}
+
+.im{
+    width: 450px;
+    height:350px
+}
+
+#ph{
+    width: 650px;
+    height: 550px;
+}
+
+.foto{
+    width: 750px;
+    height: 450px;
+}
